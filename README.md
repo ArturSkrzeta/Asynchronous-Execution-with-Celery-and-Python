@@ -1,4 +1,5 @@
 <h2>Asynchronous Execution with Celery and Python</h2>
+<p>"Outsourcing" time-consuming functions for the exectution in the background of normal app's work so that app can continue the routine.</p>
 <h3>Celery Architecture</h3>
 <ul>
   <li>client app --> message queue in taks broker --> worker --> result storage --> client</li>
