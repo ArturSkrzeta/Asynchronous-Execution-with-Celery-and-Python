@@ -18,7 +18,7 @@
   <li>For tasks broker I can choose Heroku or Redits</li>
 </ul>
 
-<h3>Redis</h3>
+<h3>Redis as Broker</h3>
 <ul>
   <li><i>In-memory data structure store, used as a database, cache and message broker.</i></li>
   <li>Redis stores data as key-value pairs where value is actual data.</li>
