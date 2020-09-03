@@ -18,7 +18,7 @@
   <li>For tasks broker I can choose Heroku or Redits</li>
 </ul>
 
-<h3>Redis as Broker</h3>
+<h3>Redis as Broker on Windows</h3>
 <ul>
   <li><i>In-memory data structure store, used as a database, cache and message broker.</i></li>
   <li>Redis stores data as key-value pairs where value is actual data.</li>
@@ -27,7 +27,7 @@
   <img src="images/redis_on_windows.JPG">
 </ul>
 
-<h3>Running Celery server</h3>
+<h3>Running Celery server on Windows</h3>
 <ul>
   <li>pip install celery</li>
   <li>pip install gevent</li>
