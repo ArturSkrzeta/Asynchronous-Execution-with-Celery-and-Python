@@ -21,7 +21,6 @@
 <h3>Redis</h3>
 <ul>
   <li><i>In-memory data structure store, used as a database, cache and message broker.</i></li>
-  <li>Download: https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100</li>
-  <li>Run redis-server.exe</li>
-  <li>Run redis-cli.exe to interact with server.</li>
+  <li>pip install redis</li>
+  <li></li>
 </ul>
