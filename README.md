@@ -23,5 +23,6 @@
   <li><i>In-memory data structure store, used as a database, cache and message broker.</i></li>
   <li>Redis stores data as key-value pairs where value is actual data.</li>
   <li>Running server with redis-server.exe</li>
+  <br>
   <img src="images/redis_on_windows.JPG">
 </ul>
