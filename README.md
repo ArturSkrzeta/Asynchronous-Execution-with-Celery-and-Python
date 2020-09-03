@@ -36,5 +36,11 @@
   <img src="images/celery_server_run.JPG">
 </ul>
 
-
-
+<h3>Python</h3>
+<ul>
+  <li>Function_name.delay(x,y) - with .delay() python sends function to the tasks queue so that celery can execute it.</li>
+  <li>The task id is returned.</li>
+  <li>Celery notifies task reception and its outcome.</li>
+  <br>
+  <img src="images/fun_to_celery.JPG">
+</ul>
