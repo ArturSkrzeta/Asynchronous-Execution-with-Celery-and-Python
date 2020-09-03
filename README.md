@@ -12,6 +12,13 @@
   <br>
   <img src="images/architecture.JPG">
   <li>The data result storage generates the task ID so that client can track its status.</li>
-  <li>For tasks broker I can choose</li>
-  <li>For passing a function to the celery, the only thing you need to do is put the decorator '@app.task' above the function.</li>
+  <li>For tasks broker I can choose Heroku or Redits</li>
+  <li>In order to pass a function to the celery, the only thing you need to do is to put the decorator '@app.task' above the function.</li>
+</ul>
+
+<h3>Redis</h3>
+<ul>
+  <li>Download: https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100</li>
+  <li>Run redis-server.exe</li>
+  <li>Run redis-cli.exe to interact with server.</li>
 </ul>
