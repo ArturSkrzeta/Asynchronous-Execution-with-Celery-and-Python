@@ -17,7 +17,7 @@
   <li>Explicitly send function to task queue by executing .delay() on function name.</li>
 </ol>
 
-<h3>Celery Architecture</h3>
+<h3>Architecture</h3>
 <ul>
   <li>client app --> message queue in taks broker --> worker --> result storage --> client</li>
   <br>
@@ -32,6 +32,7 @@
   <li><i>In-memory data structure store, used as a database, cache and message broker.</i></li>
   <li>Redis stores data as key-value pairs where value is actual data.</li>
   <li>Running server with redis-server.exe</li>
+  <li>Giving broker='redis://localhost:6379/0' as a parameter in celery class instance.</li>
   <br>
   <img src="images/redis_on_windows.JPG">
 </ul>
