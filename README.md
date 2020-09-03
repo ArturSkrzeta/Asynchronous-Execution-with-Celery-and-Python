@@ -9,14 +9,13 @@
 
 <h3>Workflow</h3>
 <ol>
-  <li>Running Task broker - Redis</li>
-  <li>Running Celery server</li>
-  <li>Importing celery library to python app</li>
-  <li>Wrapping the function we want to pass to queue in decorator</li>
-  <li>Importing function in Python interpreter</li>
-  <li>Explicitly send function to task queue by executing .delay() on function name</li>
+  <li>Running Task broker - Redis.</li>
+  <li>Running Celery server in terminal.</li>
+  <li>Importing celery library to python app.</li>
+  <li>Wrapping the function of python app we want to pass to queue in decorator.</li>
+  <li>Importing function in another Python runtime.</li>
+  <li>Explicitly send function to task queue by executing .delay() on function name.</li>
 </ol>
-
 
 <h3>Celery Architecture</h3>
 <ul>
