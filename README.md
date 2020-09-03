@@ -26,3 +26,15 @@
   <br>
   <img src="images/redis_on_windows.JPG">
 </ul>
+
+<h3>Running Celery server</h3>
+<ul>
+  <li>pip install celery</li>
+  <li>pip install gevent</li>
+  <li>celery -A script_name worker -l info -P gevent</li>
+  <br>
+  <img src="images/celery_server_run.JPG">
+</ul>
+
+
+
