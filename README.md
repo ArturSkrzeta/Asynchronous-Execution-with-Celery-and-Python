@@ -31,7 +31,8 @@
 <ul>
   <li><i>In-memory data structure store, used as a database, cache and message broker.</i></li>
   <li>Redis stores data as key-value pairs where value is actual data.</li>
-  <li>Running server with redis-server.exe</li>
+  <li>Running server with <b>redis-server.exe</b>.</li>
+  <li>Running redis client with <b>redis-cli.exe</b>.</li>
   <li>Giving broker='redis://localhost:6379/0' as a parameter in celery class instance.</li>
   <br>
   <img src="images/redis_on_windows.JPG">
