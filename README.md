@@ -43,6 +43,7 @@
   <li>pip install celery</li>
   <li>pip install gevent</li>
   <li>celery -A script_name worker -l info -P gevent</li>
+  <li>celery -A tasks worker -l info -P gevent</li>
   <br>
   <img src="images/celery_server_run.JPG">
 </ul>
