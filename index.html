@@ -73,6 +73,21 @@
 								<div class="container">
 									<h3>Demo</h3>
 									<img src="images/celery6.gif" width="720">
+									<p>Workflow:</p>
+									<ol>
+									  <li>Running Task broker - Redis.</li>
+									  <li>Running Celery server in terminal.
+											<br>
+											- celery server is on stand-by listening to python<br>
+										</li>
+										<li>Running Python in terminal.
+											<br>
+											- importing main function we want to run several times asynchronously,<br>
+											- defining phrases in the p_list - list length equals times main function will being executed asynchronously,<br>
+											- sending function to celery task queue by executing .delay() on function name.
+										<li>
+										<li>Celery executes tasks in parallel.</li>
+									</ol>
 								</div>
 							</section>
 
