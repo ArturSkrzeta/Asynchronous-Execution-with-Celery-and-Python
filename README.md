@@ -29,7 +29,7 @@
 
 <h3>Redis as Broker on Windows</h3>
 <ul>
-  <li><i>In-memory data structure store, used as a database, cache and message broker.</i></li>
+  <li><i>In-memory NoSQL data structure store, used as a database, cache and message broker.</i></li>
   <li>Redis stores data as key-value pairs where value is actual data.</li>
   <li>Running server with <b>redis-server.exe</b>.</li>
   <li>Running redis client with <b>redis-cli.exe</b>.</li>
